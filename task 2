@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Document</title>
+  <link href="table.css" rel="stylesheet" type="text/css" />
+</head> 
+<body>
+  <h1 style="text-align: center; color: blueviolet; font-weight: bold;">Student Information</h1>
+  <table>
+    <tr>
+      <th>S.N</th>
+      <td>1</th>
+      <td>2</th>
+    </tr>
+    <tr>
+      <th rowspan="2">FULL NAME</th>
+      <td>Ram</td>
+      <td>Sita</td>
+    </tr>
+    <tr>
+      <td>Karki</td>
+      <td>Karki</td>
+    </tr>
+    <tr>
+      <th>Subject</th>
+      <td>Math</td>
+      <td>Science</td>
+    </tr>
+    <tr>
+      <th>Age</th>
+      <td>45</td>
+      <td>42</td>
+    </tr>
+  </table>
+</body>
+</html>
